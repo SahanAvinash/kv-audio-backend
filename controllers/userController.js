@@ -43,6 +43,7 @@ export function loginUser(req,res){
                         firstName : user.firstName,
                         lastName : user.lastName,
                         role : user.role,
+                        profilePic : user.profilePic
 
                     },process.env.JWT_SECRET)
                     res.json({

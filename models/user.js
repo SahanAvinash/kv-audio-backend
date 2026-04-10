@@ -26,6 +26,11 @@ const userSchema = new mongoose.Schema({
     phone : {
         type : String,
         required : true
+    },
+    profilePic : {
+        type : String,
+        required : true,
+        default : "https://www.pinterest.com/pin/610448924494569360/"
     }
 })
 
